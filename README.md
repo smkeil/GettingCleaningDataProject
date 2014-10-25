@@ -1,4 +1,4 @@
-GettingCleaningDataProject - Readme is to describe how the script works.
+GettingCleaningDataProject
 ==========================
 Repository for Course Project for Coursera's "Getting and Cleaning Data"
 25Oct2014
@@ -6,7 +6,7 @@ Repository for Course Project for Coursera's "Getting and Cleaning Data"
 1. Download the following zip file which contains all needed data files. 
         https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
         
-        A full description of this data is available from its original location here:
+        A full description of this data is available from its original location:
               http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
   
 2. Place the above downloaded file in a directory called WORK from which you are able to run R scripts. You should have
