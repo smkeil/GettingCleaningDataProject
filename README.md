@@ -10,6 +10,7 @@ Repository for Course Project for Coursera's "Getting and Cleaning Data"
         http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
   
 2. Place the above downloaded file in a directory called WORK from which you are able to run R scripts. You should have
+
 ...WORK/getdata_projectfiles_UCI HAR Dataset.zip
 
 3. From the directory WORK, unzip the above zip file, accepting the extract defaults. This should result in a new directory
