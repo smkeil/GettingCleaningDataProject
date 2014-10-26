@@ -35,5 +35,6 @@ Github repository for more information about the data and how it is transformed 
     F. Creates and writes the file "tidy_data.txt" to the WORK directory.
 
 6. The output of running run_analysis.R, tidy_data.txt, contains the mean value for each of the measurements retained above in 5C. One way to view the contents of tidy_data.txt is to issue the following commands at the R prompt when the WORK directory described above is R's current working directory.
-        data <- read.table("tidy_data.txt", header=TRUE)
-        View(data)
+
+data <- read.table("tidy_data.txt", header=TRUE)
+View(data)
