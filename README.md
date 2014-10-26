@@ -24,10 +24,15 @@ Github repository for more information about the data and how it is transformed 
     A. Reads in 8 text data files from the data downloaded above. 
     
     B. Combines all data of interest to a single dataset.
+    
     C. Reduces dataset to include only measurements of 'mean' and 'standard deviation'.
+    
     D. Ensures dataset values are text values if available.
+    
     E. Ensures column names are useful, descriptive.
+    
     ... At this point, a "tidy" dataset is accessible to run_analysis.R ...
+    
     F. Creates and writes the file "tidy_data.txt" to the WORK directory.
 
 6. The output of running run_analysis.R, tidy_data.txt, contains the mean value for each of the measurements retained above in 5C.
