@@ -88,14 +88,23 @@ I. The 66 feature names retained above in step D above are further "cleaned" as 
 cryptic was expanded, space characters and periods were avoided, and all variable names were converted to lower text characters. Certainly, this is subjective and results in very long variable names.
 
 ---> Variable names starting with "t" were renamed to start with "time-".
+
 ---> Variable names starting with "f" were renamed to start with "frequency-".
+
 ---> If the variable name included "BodyBody" (likely a mistake in the original data), "BodyBody" was changed to "Body".
+
 ---> If the variable name included "Acc", "Acc" was replaced with "-Acceleration".
+
 ---> If the variable name included "Gyro", "Gyro" was replaced with "-Gyroscope".
+
 ---> If the variable name included "Jerk", "Jerk" was replaced with "-Jerk".
+
 ---> If the variable name included "Mag", "Mag" was replaced with "-Magnitude".
+
 ---> If the variable name included "std", "std" was replaced with "standard-deviation".
+
 ---> If the variable name included "()", "()" was removed from the variable name.
+
 ---> All upper case characters remaining in variable names were converted to lower case.
 
 The column names for the 68 total columns in the resulting tidy data set are as follows, with each revised feature name appearing inside a pair of double quotation marks("feature name").
