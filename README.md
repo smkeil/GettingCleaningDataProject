@@ -22,6 +22,7 @@ NOTE: If your operating system does not support space characters in directory (o
 Github repository for more information about the data and how it is transformed to a useful format.
 
     A. Reads in 8 text data files from the data downloaded above. 
+    
     B. Combines all data of interest to a single dataset.
     C. Reduces dataset to include only measurements of 'mean' and 'standard deviation'.
     D. Ensures dataset values are text values if available.
