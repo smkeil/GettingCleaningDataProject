@@ -1,8 +1,8 @@
 Course Project Repository for Coursera's "Getting and Cleaning Data" class.
 ==========================
-The script run_analysis.R reads in data scattered in multiple files, massages that data to a usable format in a single data structure, and then uses this single data structure to write a file giving one perspective of the data.
+The script run_analysis.R reads in data scattered in multiple files, massages that data to a usable format in a single data structure, and then uses this single data structure to write a file giving one perspective of the original data.
 
-1. Download the following zip file which contains all needed data files. 
+1. Download the following zip file which contains all needed input data files. 
         https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
         
    A full description of this data is available from its original location:
@@ -34,4 +34,6 @@ Github repository for more information about the data and how it is transformed 
     
     F. Creates and writes the file "tidy_data.txt" to the WORK directory.
 
-6. The output of running run_analysis.R, tidy_data.txt, contains the mean value for each of the measurements retained above in 5C.
+6. The output of running run_analysis.R, tidy_data.txt, contains the mean value for each of the measurements retained above in 5C. One way to view the contents of tidy_data.txt is to issue the following commands at the R prompt when the WORK directory described above is R's current working directory.
+        data <- read.table("tidy_data.txt", header=TRUE)
+        View(data)
