@@ -16,6 +16,7 @@ colnames(orig_training_set) <- as.character(features[,2])
 colnames(orig_test_set) <- as.character(features[,2])
 
 ## Provide meaningful column names.
+colnames(training_subjects) <- "subject"
 colnames(test_subjects) <- "subject"
 colnames(training_labels) <- "activity"
 colnames(test_labels) <- "activity"
