@@ -1,7 +1,6 @@
-GettingCleaningDataProject
+Course Project Repository for Coursera's "Getting and Cleaning Data" class.
 ==========================
-Repository for Course Project for Coursera's "Getting and Cleaning Data"
-25Oct2014
+The script run_analysis.R reads in data scattered in multiple files, massages that data to a usable format in a single data structure, and then uses this single data structure to write a file giving one perspective of the data.
 
 1. Download the following zip file which contains all needed data files. 
         https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
