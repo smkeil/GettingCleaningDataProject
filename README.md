@@ -20,6 +20,7 @@ NOTE: If your operating system does not support space characters in directory (o
 
 5. Run the R script run_analysis.R. run_analysis accomplishes the following tasks. Please see the file CodeBook.md in this
 Github repository for more information about the data and how it is transformed to a useful format.
+
     A. Reads in 8 text data files from the data downloaded above. 
     B. Combines all data of interest to a single dataset.
     C. Reduces dataset to include only measurements of 'mean' and 'standard deviation'.
