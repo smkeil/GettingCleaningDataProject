@@ -13,8 +13,7 @@ Repository for Course Project for Coursera's "Getting and Cleaning Data"
 --> ... WORK/getdata_projectfiles_UCI HAR Dataset.zip
 
 3. From the directory WORK, unzip the above zip file, accepting the extract defaults. This should result in a new directory
-containing several text files with the following path structure: --> ... WORK/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/{test, train}/...
-
+containing several text files with the following path structure: --> ... WORK/getdata_projectfiles_UCI HAR Dataset/UCI HAR Dataset/{test, train}/... 
 NOTE: If your operating system does not support space characters in directory (or file) names, or if the path structure of the extracted contents of the downloaded zip file have changed, you will need to update the path arguments provided to read.table() on lines 4 through 11 of the run_analysis.R script in order to be sure all data input required by the script is obtained.
 
 4. Place the script run_analysis.R found in this Github repository in the above mentioned directory called WORK. You should have --> ...WORK/run_analysis.R
